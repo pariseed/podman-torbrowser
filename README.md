@@ -2,6 +2,10 @@
 a container image to get and start every time the last version of torbrowser
 
 
+## prerequisites
+in oreder to use this container you have to use a system with a Xorg server running, wayland is not supporterd
+ 
+
 ## setup and build the image
 cd podman-torbrowser/ && podman build -t tor .
 
