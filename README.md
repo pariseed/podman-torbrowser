@@ -3,7 +3,7 @@ a container image to get and start every time the last version of torbrowser
 
 
 ## prerequisites
-> in order to use this container you have to use a system with a Xorg server running, wayland is not supporterd
+> in order to use this container you have to use a system with a Xorg server running, wayland is not supported
  
 
 ## setup and build the image
