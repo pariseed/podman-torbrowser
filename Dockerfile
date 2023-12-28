@@ -1,4 +1,4 @@
-FROM fedora
+FROM fedora:38
 RUN dnf install -y zenity kdialog xmessage gxmessage libXinerama.x86_64 cups-libs dbus-glib procps-ng xz
 RUN groupadd -g 1000 tor; useradd -g 1000 -u 1000 -m tor 
 
