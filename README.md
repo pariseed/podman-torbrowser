@@ -12,3 +12,6 @@ a container image to get and start every time the last version of torbrowser
 
 ## starting the container executing X11 forwarding with the non root user tor:
 > uid=1000; podman run --rm -e DISPLAY --net=host -v /tmp/.X11-unix:/tmp/.X11-unix  --uidmap $uid:0:1 --uidmap 0:1:$uid -it tor
+
+## in case of X auth error, start the container mounting your local Xauthority
+> uid=1000; pd run --rm -e DISPLAY --net=host -v /tmp/.X11-unix:/tmp/.X11-unix -v /YOUR/PATH/Xauthority:/home/tor/.Xauthority --uidmap $uid:0:1 --uidmap 0:1:$uid -it tor
