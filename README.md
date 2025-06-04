@@ -3,7 +3,8 @@ a container image to get and start every time the last version of torbrowser
 
 
 ## prerequisites
-> this image is intended to work with Wayland, if you're using Xorg refeer to X11 folder 
+> this image is intended to work with Wayland, if you're using Xorg refeer to X11 folder
+
 > be sure that you've podman rootless installed on your system
  
 
