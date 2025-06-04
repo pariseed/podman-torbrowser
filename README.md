@@ -1,5 +1,5 @@
 # podman-torbrowser
-container image to donwload and start every time the latest version of torbrowser
+container image to download and start every time the latest version of torbrowser
 
 
 ## prerequisites
